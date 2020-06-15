@@ -1,0 +1,37 @@
+# 覆盖主题下的同名文件
+# For the `icon`, see SVG.toml
+
+[[socials]]
+    id = "rss"
+    url = "/rss.xml"
+    icon = "rss"
+    title = "RSS"
+    weight = 3
+
+[[socials]]
+    id = "email"
+    url = "sugimoto.av@gmail.com"
+    icon = "envelope"
+    title = "Email"
+    weight = 2
+
+# [[socials]]
+#     id = "github"
+#     url = "https://github.com/sugimoto"
+#     icon = "github"
+#     title = "GitHub"
+#     weight = 3
+
+# [[socials]]
+#     id = "twitter"
+#     url = "https://twitter.com/sugimoto"
+#     icon = "twitter"
+#     title = "Twitter"
+#     weight = 4
+
+[[socials]]
+    id = "telegram"
+    url = "https://t.me/sugimoto_yumi"
+    icon = "telegram"
+    title = "Telegram"
+    weight = 1
