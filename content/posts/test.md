@@ -6,16 +6,3 @@ draft: true
 ---
 
 ![](/img/01.png "hello")
-
-
-{{< gallery >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-    {{< figure src="/img/01.png" >}}
-{{< /gallery >}}
