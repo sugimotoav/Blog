@@ -1,5 +1,6 @@
 ---
 title: "本地AV的终极管理方式"
+description: "(我瞎说的...)"
 date: 2020-06-16T01:05:43+08:00
 toc: true
 draft: false
@@ -17,13 +18,13 @@ draft: false
 ![0C76Tw](https://cdn.jsdelivr.net/gh/zhaoleihello/ImageStore@master/Images/0C76Tw.jpg)
 
 
-我以前我的目录是这样的结构, emby那一套, 一看这个图片名字就知道是那套
+以前我的目录是这样的结构, emby那一套, 一看这个图片名字就知道是那套
 
 ![32Xs5f](https://cdn.jsdelivr.net/gh/zhaoleihello/ImageStore@master/Images/32Xs5f.png)
 
 本来想借鉴一下他们的代码的, 结果发现个事, 读懂他们的代码还没自己写来的快.
 
-他们写的肯定先对文件名正则匹配, 然后根据格式化过的字符串作为url的发送请求去从web上现找, 因为我有个数据库, 图片也早就下完了, 我根本不用去发送请求, 文件名也自己处理过了, 从本地数据库里查询一下就行了, 速度飞快.
+他们写的肯定先对文件名正则匹配, 然后根据格式化过的字符串再拼接url, 发送请求去从web上现找. 因为我有个数据库, 图片也早就下完了, 我根本不用去发送请求, 文件名也自己处理过了, 从本地数据库里查询一下就行了, 速度飞快.
 
 emby这套, 我当时试了试图片后缀名不加"-fanart", nfo文件里准确的写入我自定义的图片名, 结果发现不行, emby识别不了, 最后只能改回来.
 
